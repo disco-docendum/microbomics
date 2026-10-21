@@ -1,4 +1,4 @@
-Server scripts of the project:
+Server scripts:
 
 01_download_data.sh - downloads the initial benchmark dataset, including complete reference genomes for two distant phyla (Enterobacteriaceae and Bacteroidaceae), gut phage genomes (Crassvirales), and the REBASE restriction enzyme database.
 
@@ -16,8 +16,8 @@ Server scripts of the project:
 
 08_fix_ecophy_math.py - the final evaluation script. It removes data leakage by utilizing unsupervised community baseline centering and intra-genomic spatial instability weights, and runs a strict 200-permutation random null audit to prove the cross-species genus placement accuracy.
 
-Local script:
+Local scripts:
 
-viz.ipynb - local data processing and visualizations of the server work
+viz.ipynb - local data processing and visualizations of the server work.
 
-tanglegrams.r - the final script of drawing tanglegram and exporting it as pdf
+tanglegrams.r - the final script of drawing tanglegram and exporting it as pdf file.
